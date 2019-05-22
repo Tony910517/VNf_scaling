@@ -33,7 +33,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SFC_process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="531">
               <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
@@ -99,7 +99,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -223,12 +223,12 @@
       <workItem from="1557791910947" duration="102000" />
       <workItem from="1557824049118" duration="34827000" />
       <workItem from="1557988910805" duration="29218000" />
-      <workItem from="1558090695667" duration="18548000" />
+      <workItem from="1558090695667" duration="19144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82695000" />
+    <option name="totallyTimeSpent" value="83291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,7 +248,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.2293578" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.2293578" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39842725" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SFC_process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="531">
           <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
