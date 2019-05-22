@@ -1,6 +1,6 @@
 import algorithms
 import openstack_setting as opset
-from request_process import Request
+from request import Request
 from operator import attrgetter
 import time
 
@@ -163,7 +163,8 @@ class VNF_Group(object):
 if __name__ == '__main__':
 
 
-    request1 = Request(4, 4, 20)
+    request1 = Request()
+    request1.resource.set_resource(vcpu=4, ram=4, disk=10)
     vnf_test1 = VNF_Group(request1, name='test1', image_name='cirros')
     vnf_test1.get_vnf_group()
     vnf_test1.vnf_deployment()
@@ -171,8 +172,8 @@ if __name__ == '__main__':
     print('*' * 20)
     print(vnf_test1.get_count())
     print('*' * 20)
-    input()
 
+''''
     time.sleep(5)
     request2 = Request(2, 2, 10)
     vnf_test1.scaling(request2)
@@ -204,7 +205,7 @@ if __name__ == '__main__':
 
 
         end_flag = int(input('input 0 for ending the program: '))
-
+'''
 
 
 

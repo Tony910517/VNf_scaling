@@ -91,6 +91,14 @@ def resume_vm(nova_client, vm_id):
     SM.resume(vm_id)
 
 
+def remove_allvm(nova_client):
+    SM = ServerManager(nova_client)
+    for vm in SM.list():
+        if vm.id != 'f686bc62-0ff1-4576-a55e-92df18deb8d9':
+            SM.delete(vm.id)
+
+
+
 
 if __name__ == '__main__':
     nova=openstack_auth()
