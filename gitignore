@@ -5,3 +5,8 @@
 *.egg-info
 dist
 build
+.eggs
+.idea
+.python-version
+.cache
+venv/
